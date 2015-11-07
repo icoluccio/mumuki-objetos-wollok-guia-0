@@ -6,8 +6,8 @@ Y `pepita`, además de ser una golondrina, es un objeto, que como contamos en la
 
 Y lo hacemos de la siguiente forma:
 
-```javascript
-var pepita = {}
+```wollok
+object pepita {}
 ```
 
 > ¡Probalo vos mismo! Escribí el código anterior en el editor.
