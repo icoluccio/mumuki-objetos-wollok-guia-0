@@ -1,4 +1,4 @@
-tests("pepita") {
+tests "pepita" {
   // assert(typeof(pepita) !== undefined );
   // assert(pepita.constructor == Object);
 }
