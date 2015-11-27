@@ -4,17 +4,17 @@ Lo que devolvimos en los ejercicios anteriores es un texto, más conocido como `
 
 Por ejemplo, podemos guardarlo en una variable:
 
-```javascript
+```wollok
 var unCanto = pepita.cantar()
 ```
 
 O mejor, podemos usarlo directamente. Supongamos que queremos hacer que pepita grite (que es lo mismo que cantar, pero en mayúsculas):
 
-```javascript
+```wollok
 pepita.cantar().toUpperCase()
 ```
 
-¿Qué fue esto? A `pepita` le enviamos el mensaje `cantar`, que devuelve, como ya sabemos, "pri pri priiiii". Y luego, a "pri pri priiiii" el enviamos otro mensaje: `toUpperCase`, que ya viene con JavaScript y convierte un string minúscula en un string mayúscula.
+¿Qué fue esto? A `pepita` le enviamos el mensaje `cantar`, que devuelve, como ya sabemos, "pri pri priiiii". Y luego, a "pri pri priiiii" el enviamos otro mensaje: `toUpperCase`, que ya viene con Wollok y convierte un string minúscula en un string mayúscula.
 
 Moraleja, obtenemos `"PRI PRI PRIIIII"`.
 

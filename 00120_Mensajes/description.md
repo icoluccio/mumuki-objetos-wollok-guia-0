@@ -2,7 +2,7 @@ Y podríamos seguir creando objetos como `pepìta` o `anastasia`, pero... ¡diji
 
 Así que allá vamos: para decirle a un objeto que resuelva un problema por nosotros tenemos que enviarle un **mensaje**. Por ejemplo, si lo que queremos es que `pepita` cante, entonces le enviaremos el mensaje `cantar`, de la siguiente forma:
 
-```javascript
+```wollok
 pepita.cantar()
 ```
 

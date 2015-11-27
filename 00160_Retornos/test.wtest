@@ -1,0 +1,4 @@
+test "Anastasia cantó una vez" {
+  assert.equals(anastasia.cantar().vecesQueSeCalculoElLargo(), 1)
+}
+

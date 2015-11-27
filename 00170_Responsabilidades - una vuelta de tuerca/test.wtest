@@ -1,0 +1,8 @@
+test "Pepita entiende vivacidad" {
+  //Si no lo entiende rompe y falla?
+  assert.that(anastasia.vivacidad())
+}
+
+test "la vivacidad de Pepita es 15" {
+  assert.Equals(anastasia.vivacidad(), 15)
+}

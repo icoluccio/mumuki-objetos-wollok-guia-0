@@ -1,5 +1,4 @@
-test "pepita" {
-  assert.equals(1, 1)
-  // assert(typeof(pepita) !== undefined );
-  // assert(pepita.constructor == Object);
+test "Pepita existe" {
+	// Si no es un objeto de wollok rompe?
+	assert.that(pepita.identity() > 0)
 }

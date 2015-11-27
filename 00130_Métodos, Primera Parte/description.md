@@ -4,13 +4,19 @@ Pero también, que si le enviás un mensaje a un objeto que no sabe cómo maneja
 
 La forma correcta de hacer que tooodo esto funcione (¡creenos!) es la siguiente:
 
-```javascript
-var pepita = {}
-pepita.cantar = function() {
-  return "pri pri priiiii"
+```wollok
+object pepita {
+	method cantar(){
+		return "pri pri priiiii"
+	}
 }
+```
 
+y luego decirle a Pepita que cante:
+
+```wollok
 pepita.cantar()
 ```
+
 
 > Probalo en el editor vos mismo.

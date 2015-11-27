@@ -1,15 +1,16 @@
 Repasemos lo que escribimos: la primera línea ya la entendemos: creamos a pepita.
 
-```javascript
-var pepita = {}
+```wollok
+object pepita {
 ```
 
-Lo nuevo está en las lineas siguientes: definir, dentro de pepita, un método, el método `cantar!`
+Lo nuevo está en las lineas siguientes: definir, dentro de pepita, un método, el método `cantar`
 
 
-```javascript
-pepita.cantar = function() {
-  return "pri pri priiiii"
+```wollok
+  method cantar() {
+    return "pri pri priiiii"
+  }
 }
 ```
 
@@ -19,7 +20,7 @@ Y en este caso le estamos diciendo a pepita que, cuando se le envíe el mensaje 
 
 Entonces, si luego de definir el método, escribimos:
 
-```javascript
+```wollok
 pepita.cantar()
 ```
 

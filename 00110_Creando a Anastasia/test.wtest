@@ -1,0 +1,4 @@
+test "Anastasia existe" {
+	// Si no es un objeto de wollok rompe?
+	assert.that(anastasia.identity() > 0)
+}

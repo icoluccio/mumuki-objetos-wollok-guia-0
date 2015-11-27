@@ -1,0 +1,3 @@
+test "pepita cantó exactamente una vez" {
+  assert.equals(pepita.canto, 1)
+}
